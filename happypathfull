@@ -1,0 +1,52 @@
+{
+overall test 
+}
+program foo;
+
+var bar:real;
+var meow:integer;
+var woof, bark:real;
+
+procedure roar(a:real; b: real; c: real);
+begin
+end;
+
+function doof( a:real; b:real; c:integer) : real;
+var cat, dog, moose : integer;
+var some, arrays: array[0:20] of integer;
+
+procedure food(ingred1:real; ingred2:real);
+
+var dish:real;
+var nope, hasnt, been, declared: real;
+
+begin
+	dish := ingred1 * ingred2;
+	nope := hasnt + been + declared;
+	
+end;
+
+begin
+	cat := a + b + c; {how do you return a value eh?}
+	dog := a * b + c * c ;
+	moose :=  123.3 / ( 4 + 5 ) * cat
+end;
+
+
+
+begin
+
+woof := 100;
+{if 
+	woof = doof(bar,meow, doof(bar,meow,woof)) {This is a comment!}
+then
+	while 
+		woof = bark
+	do 
+		bark := bark - 1
+else
+	roar(woof,bark,meow)
+
+
+end
+.
